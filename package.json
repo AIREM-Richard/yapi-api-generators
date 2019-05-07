@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "node test/index_test.js"
+    "test": "node test/index_test.js",
+    "pub": "npm publish --registry http://nexus.uat.crpharm.com/repository/npm-released/",
+    "pub-local": "npm publish --registry http://localhost:4873/"
   },
   "keywords": [],
   "author": "miaochuanxing",
